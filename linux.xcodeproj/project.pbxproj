@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DB6AE32F26F6B5E6001F2070 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DB6AE32E26F6B5E6001F2070 /* main.c */; };
+		DBDCCD6B2701320E00BAC62E /* square.c in Sources */ = {isa = PBXBuildFile; fileRef = DBDCCD6A2701320E00BAC62E /* square.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		DB6AE32B26F6B5E6001F2070 /* linux */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = linux; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6AE32E26F6B5E6001F2070 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		DBDCCD692701320E00BAC62E /* square.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = square.h; sourceTree = "<group>"; };
+		DBDCCD6A2701320E00BAC62E /* square.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = square.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +60,19 @@
 		DB6AE32D26F6B5E6001F2070 /* linux */ = {
 			isa = PBXGroup;
 			children = (
+				DBDCCD68270131EC00BAC62E /* leetcode */,
 				DB6AE32E26F6B5E6001F2070 /* main.c */,
 			);
 			path = linux;
+			sourceTree = "<group>";
+		};
+		DBDCCD68270131EC00BAC62E /* leetcode */ = {
+			isa = PBXGroup;
+			children = (
+				DBDCCD692701320E00BAC62E /* square.h */,
+				DBDCCD6A2701320E00BAC62E /* square.c */,
+			);
+			path = leetcode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBDCCD6B2701320E00BAC62E /* square.c in Sources */,
 				DB6AE32F26F6B5E6001F2070 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
